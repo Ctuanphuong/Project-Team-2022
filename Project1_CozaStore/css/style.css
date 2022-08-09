@@ -15,9 +15,9 @@ html{
   scroll-behavior: smooth;
 }
 /* PHẦN MENU TOP */
-.container-menu-destop {
+.container-menu-desktop {
   position: relative;
-  transition: all 0.3s;
+  transition: all 0.4s;
 }
 .right-top-bar > ul > li > a:hover {
   color: #6c7ae0;
@@ -65,15 +65,18 @@ html{
 }
 /* MENU DESKTOP */
 .wrap-menu-desktop {
+  width: 100%;
+z-index: 1000;
+position: fixed;
+background: none;
+
+}
+.menu-main{ 
   width: 1200px;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  background: none;
-  position: absolute;
-  z-index: 1;
-  left: 0;
-  right: 0;
+  position: relative;
+  margin: 0 auto;
 }
 .menu-desktop .active-menu {
   color: #6c7ae0;
@@ -126,9 +129,10 @@ html{
   justify-content: center;
   align-items: center;
   right: 1px;
+ color: ;
 }
 .menu-desktop {
-  margin-top: 20px;
+  margin-top: 15px;
   display: flex;
   box-sizing: border-box;
   align-items: center;
@@ -251,7 +255,7 @@ phần chữ nổi trên slide */
 }
 .bg-btn:hover {
   background-color: #222;
-  transition: all 0.4s;
+  transition: all 0.4s ease;
 }
 /* BANNER */
 
