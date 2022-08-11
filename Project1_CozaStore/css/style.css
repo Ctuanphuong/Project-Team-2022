@@ -129,7 +129,7 @@ background: none;
   justify-content: center;
   align-items: center;
   right: 1px;
- color: ;
+
 }
 .menu-desktop {
   margin-top: 15px;
@@ -278,6 +278,7 @@ phần chữ nổi trên slide */
 .block1 img {
   width: 100%;
   border: 1px solid #e6e6e6;
+  display: block;
 }
 .row {
   display: grid;
@@ -289,7 +290,7 @@ phần chữ nổi trên slide */
 }
 .a-banner {
   width: 90.4%;
-  height: 87%;
+  height: 89%;
   position: absolute;
   top: 0;
   left: 0;
@@ -298,7 +299,7 @@ phần chữ nổi trên slide */
 .a-banner:hover {
   background-color: rgba(103, 117, 214, 0.8);
   width: 90.4%;
-  height: 87%;
+  height: 89%;
   transition: all 0.5s;
 }
 .a-banner:hover .text-banner h3 {
